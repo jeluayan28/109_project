@@ -126,7 +126,7 @@ import {
       title: "Profile Information",
       company_name: "Senior Bridge",
       icon: profile,
-      iconBg: "#86D293",
+      iconBg: "#15F5BA",
       date: "March 2020 - April 2021",
       points: [
         " Our platform allows each user to create a detailed profile, ensuring that all relevant health, lifestyle, and support needs are documented. This personalized information helps us provide tailored recommendations and care plans, making sure every senior receives the attention they deserve.",
@@ -136,7 +136,7 @@ import {
       title: "Beneficiary Status",
       company_name: "Senior Bridge",
       icon: benefit,
-      iconBg: "#86D293",
+      iconBg: "#15F5BA",
       date: "Jan 2021 - Feb 2022",
       points: [
         "helps users easily manage their beneficiary status, whether it's related to healthcare plans, insurance, or family arrangements. Our platform provides clear, accessible information, ensuring seniors and their families stay informed about their entitlements and benefits.",
@@ -146,7 +146,7 @@ import {
       title: "Communication and Support",
       company_name: "Senior Bridge",
       icon: communication,
-      iconBg: "#86D293",
+      iconBg: "#15F5BA",
       date: "Jan 2022 - Jan 2023",
       points: [
         "With detailed profile information stored in the system, family members and caregivers can stay connected and updated. Whether it’s for medical updates, changes in beneficiary status, or daily care, Senior Bridge ensures that communication is seamless and efficient.",
@@ -156,7 +156,7 @@ import {
       title: "Security and Privacy ",
       company_name: "Senior Bridge",
       icon: security,
-      iconBg: "#86D293",
+      iconBg: "#15F5BA",
       date: "Jan 2023 - Present",
       points: [
         "We prioritize the security and privacy of all user data, including sensitive profile information and beneficiary details. Our platform uses advanced encryption and privacy measures to ensure that seniors’ personal information is always protected.",
