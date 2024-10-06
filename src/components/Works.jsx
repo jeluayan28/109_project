@@ -68,24 +68,24 @@ const ProjectCard = ({
 const Works = () => {
   return (
    <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>All over the Philippines</p>
-        <h2 className={`${styles.sectionHeadText}`}>Users</h2>
+   <div className="flex flex-col items-center justify-center"> 
+      <motion.div variants={textVariant()} className="text-center">
+          <p className={styles.sectionSubText}>All over the Philippines</p>
+          <h2 className={styles.sectionHeadText}>Users.</h2>
       </motion.div>
 
-      <div className='w-full flex'>
-        <motion.p
+      <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-black-100 text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-black-100 text-[17px] max-w-3xl leading-[30px] text-center'
         >
           At Senior Bridge, we are dedicated to providing expert guidance, care, and resources to seniors all across the Philippines. From Luzon to Visayas and Mindanao, we proudly serve every community, ensuring that each senior receives the attention, support, and connection they deserve. Whether you or your loved ones are in a bustling city or a peaceful province, our services are tailored to meet the unique needs of seniors throughout the country.
-        </motion.p>
-      </div>
+      </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+        </div>
       </div>
    </>
   )

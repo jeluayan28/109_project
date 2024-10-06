@@ -36,26 +36,26 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
+    <div className="flex flex-col items-center justify-center"> 
+      <motion.div variants={textVariant()} className="text-center">
           <p className={styles.sectionSubText}>Introduction</p>
           <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
       <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-4 text-black text-[17px] max-w-3xl leading-[30px]'
-        >
+          className='mt-3 text-black-100 text-[17px] max-w-3xl leading-[30px] text-center' 
+      >
           Welcome to Senior Bridge, where we dedicate ourselves to improving the quality of life for seniors. Our mission is to provide expert guidance, valuable resources, and compassionate support, empowering older adults to live fulfilling, independent lives.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
           {services.map((service, index) => (
             <ServiceCard key={service.title} index={index} {...service} />
           ))}
       </div>
-    </>
-  )
+    </div>
+  );
 }
 
 export default SectionWrapper(About, "about")

@@ -21,24 +21,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import toyota from "./company/toyota.png";
-import amazon from "./company/amazon.png";
-import mcdo from "./company/mcdo.png";
-import tesla from "./company/tesla.png";
-
-
 import profile from "./services/profile.png";
 import benefit from "./services/benefit.png";
 import security from "./services/security.png";
 import communication from "./services/communication.png";
 
-import skin from "./skin.png";
-import car from "./car.png";
-import furniture from "./furniture.png";
-
 import s1 from "./seniors/s1.png";
 import s2 from "./seniors/s2.png";
 import s3 from "./seniors/s3.png";
+
+import login from "./login.png";
+import signup from "./signup.png";
 
 export {
   logo,
@@ -58,13 +51,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  toyota,
-  amazon,
-  mcdo,
-  tesla,
-  skin,
-  car,
-  furniture,
   expert,
   service,
   process,
@@ -76,4 +62,6 @@ export {
   s1,
   s2,
   s3,
+  login,
+  signup,
 };
