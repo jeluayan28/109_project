@@ -59,7 +59,7 @@ const Contact = () => {
 
   return (
     <div className= "xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
-      <motion.dev
+      <motion.div
         variants={slideIn('left', "tween", 0.2, 1)}
         className="flex-[0.75] bg-tertiary p-8 rounded-2xl"
       >
@@ -106,20 +106,23 @@ const Contact = () => {
             </label>
 
             <button
-  type="submit"
-  className="bg-blue-800 py-3 px-6 w-[200px] h-[50px] text-white font-bold rounded-full flex items-center justify-center hover:bg-blue-900 transition-colors gap-4"
->
-  {loading ? 'Sending...' : 'SEND'}
-</button>
+              type="submit"
+              className="bg-black-200 py-3 px-6 w-[200px] h-[50px] text-white font-bold rounded-full flex items-center justify-center hover:bg-blue-900 transition-colors gap-4"
+            >
+              {loading ? 'Sending...' : 'SEND'}
+            </button>
 
         </form>
-      </motion.dev>
-
-      <motion.div
-        variants={slideIn('right', "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:[550px] h-[350px]"
-      >
       </motion.div>
+
+    
+          <motion.div
+            variants={slideIn('right', "tween", 0.2, 1)}
+            className="xl:flex-1 xl:h-auto md:[550px] h-[350px]"
+          >
+            <EarthCanvas />
+          </motion.div>
+          
     </div>
   )
 }

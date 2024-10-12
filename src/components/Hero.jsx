@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="flex gap-4">
           <button
             type="button"
-            className="bg-blue-800 py-3 px-6 text-white font-bold rounded-full flex items-center hover:bg-blue-900 transition-colors"
+            className="bg-black-200 py-3 px-6 text-white font-bold rounded-full flex items-center hover:bg-blue-900 transition-colors"
           >
             <img src={login} alt="login" className="w-6 h-6 mr-2" /> 
             LOGIN
@@ -42,7 +42,7 @@ const Hero = () => {
           
           <button
             type="button"
-            className="bg-blue-800 py-3 px-6 text-white font-bold rounded-full flex items-center hover:bg-blue-900 transition-colors"
+            className="bg-black-200 py-3 px-6 text-white font-bold rounded-full flex items-center hover:bg-blue-900 transition-colors"
           >
             <img src={signup} alt="signup" className="w-6 h-6 mr-2" /> 
             SIGNUP
