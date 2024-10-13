@@ -25,6 +25,7 @@ import {
     s3,
     login,
     signup,
+    send,
   } from "../assets";
 
   export const navLinks = [
@@ -62,6 +63,10 @@ import {
   ];
   
   const technologies = [
+    {
+      name: "send",
+      icon: send,
+    },
     {
       name: "signup",
       icon: signup,

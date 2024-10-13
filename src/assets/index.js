@@ -32,6 +32,7 @@ import s3 from "./seniors/s3.png";
 
 import login from "./login.png";
 import signup from "./signup.png";
+import send from "./send.png";
 
 export {
   logo,
@@ -64,4 +65,5 @@ export {
   s3,
   login,
   signup,
+  send,
 };

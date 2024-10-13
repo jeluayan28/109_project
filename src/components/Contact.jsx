@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { login, send } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -105,12 +106,25 @@ const Contact = () => {
               />
             </label>
 
-            <button
-              type="submit"
-              className="bg-black-200 py-3 px-6 w-[200px] h-[50px] text-white font-bold rounded-full flex items-center justify-center hover:bg-blue-900 transition-colors gap-4"
-            >
-              {loading ? 'Sending...' : 'SEND'}
-            </button>
+            <div className="flex gap-4">
+  <button
+    type="submit"
+    className="bg-black-200 py-3 px-6 text-white font-bold rounded-full flex items-center hover:bg-blue-900 transition-colors"
+  >
+    {loading ? (
+      <>
+        <img src={loadingIcon} alt="loading" className="w-6 h-6 mr-2" />
+        Sending...
+      </>
+    ) : (
+      <>
+        <img src={send} alt="send" className="w-6 h-6 mr-2" />
+        SEND
+      </>
+    )}
+  </button>
+</div>
+
 
         </form>
       </motion.div>
