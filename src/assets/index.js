@@ -27,12 +27,17 @@ import security from "./services/security.png";
 import communication from "./services/communication.png";
 
 import s1 from "./seniors/s1.png";
-import s2 from "./seniors/s2.png";
-import s3 from "./seniors/s3.png";
+import s2 from "./seniors/s2.jpg";
+import s3 from "./seniors/s3.jpg";
+
 
 import login from "./login.png";
 import signup from "./signup.png";
 import send from "./send.png";
+import google from "./tech/google.png";
+import email from "./tech/email.png";
+import password from "./tech/password.png";
+import facebook from "./tech/facebook.png";
 
 export {
   logo,
@@ -66,4 +71,8 @@ export {
   login,
   signup,
   send,
+  google,
+  email,
+  password,
+  facebook,
 };

@@ -26,8 +26,13 @@ import {
     login,
     signup,
     send,
+    google,
+    email,
+    password,
+    facebook,
   } from "../assets";
 
+  
   export const navLinks = [
     {
       id: "about",
@@ -63,6 +68,22 @@ import {
   ];
   
   const technologies = [
+    {
+      name: "facebook",
+      icon: facebook,
+    },
+    {
+      name: "password",
+      icon: password,
+    },
+    {
+      name: "email",
+      icon: email,
+    },
+    {
+      name: "google",
+      icon: google,
+    },
     {
       name: "send",
       icon: send,
@@ -201,9 +222,9 @@ import {
   
   const projects = [
     {
-      name: "Butuan City",
+      name: "DOH, Davao City",
       description:
-        "We offer personalized care and resources for seniors in Butuan City, ensuring they receive the support they need. Our services help families navigate elder care with expert guidance and tailored solutions.",
+        "We offer personalized care and resources for seniors, ensuring they receive the support they need. Our services help families navigate elder care with expert guidance and tailored solutions.",
       tags: [
         {
           name: "helpful",
@@ -219,10 +240,10 @@ import {
         },
       ],
       image: s1,
-      source_code_link: "https://maps.app.goo.gl/zRZJhnZSDiyRSSXN6",
+      source_code_link: "https://maps.app.goo.gl/Pzk1RygJR5j3ZL6T6",
     },
     {
-      name: "Davao City",
+      name: "DSWD, Butuan City",
       description:
         "We provide comprehensive senior care services, offering expert advice and resources to ensure the well-being of elderly loved ones. We are committed to enhancing the quality of life for seniors across the region.",
       tags: [
@@ -240,12 +261,12 @@ import {
         },
       ],
       image: s2,
-      source_code_link: "https://maps.app.goo.gl/xsjivJrCfmi7inL86",
+      source_code_link: "https://maps.app.goo.gl/jbTqfQJddtz81rJd6",
     },
     {
-      name: "Cagayan de Oro",
+      name: "COSE, Metro Manila",
       description:
-        "Cagayan de Oro delivers specialized support for seniors, focusing on health and wellness. Our services provide families with the peace of mind they need, ensuring their elderly loved ones are well cared for.",
+        "We specialized support for seniors, focusing on health and wellness. Our services provide families with the peace of mind they need, ensuring their elderly loved ones are well cared for.",
       tags: [
         {
           name: "empowering",
@@ -261,7 +282,7 @@ import {
         },
       ],
       image: s3,
-      source_code_link: "https://maps.app.goo.gl/M2D967o989LiSZwd8",
+      source_code_link: "https://maps.app.goo.gl/THoy8GLeP4NorzXF6",
     },
   ];
 

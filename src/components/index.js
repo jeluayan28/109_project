@@ -7,6 +7,10 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import NewPage from './Newpage';
+import Status from './Status';
+import News from './News';
+import ExploreResources from './ExploreResources';
 
 export {
   Hero,
@@ -20,5 +24,9 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  NewPage,
+  Status,
+  News,
+  ExploreResources,
 }
